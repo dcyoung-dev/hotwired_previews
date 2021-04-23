@@ -1,0 +1,7 @@
+<div id="<%= dom_id post %>" class="scaffold_record">
+  <p>
+    <strong>Content:</strong>
+    <%= post.content %>
+    <%= render partial: "posts/content", object: post.content %>
+  </p>
+</div>
